@@ -6,6 +6,6 @@
 	$sql_database_name = "webchat";	//database name
 	
 	//some important urls
-	$server_url = "http://" . $_SERVER['SERVER_NAME'];
-	$iframe_url = $server_url . "/webchat/frame.php";
+	$server_url = "http://locahost" . $_SERVER['SERVER_NAME'];
+	$iframe_url = $server_url . "/frame.php";
 ?>
